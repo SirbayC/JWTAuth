@@ -7,14 +7,14 @@ app.use(express.json())
 const users = [
     {
         id: "1",
-        username: "John",
-        password: "John0908",
+        username: "Alex",
+        password: "testPass",
         isAdmin: true
     },
     {
         id: "2",
-        username: "Jane",
-        password: "Jane0908",
+        username: "Mike",
+        password: "testPass2",
         isAdmin: false
     },
 ]

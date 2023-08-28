@@ -38,6 +38,7 @@ function App() {
       return config;
     },
     (error) => {
+      console.log(error)
       return Promise.reject(error);
     }
   );
@@ -77,10 +78,10 @@ function App() {
           </span>
           <span>Delete Users:</span>
           <button className="deleteButton" onClick={() => handleDelete(1)}>
-            Delete John
+            Delete Alex
           </button>
           <button className="deleteButton" onClick={() => handleDelete(2)}>
-            Delete Jane
+            Delete Mike
           </button>
           {error && (
             <span className="error">
